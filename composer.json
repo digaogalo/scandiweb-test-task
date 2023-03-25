@@ -1,0 +1,20 @@
+{
+    "name": "rodrigo/library",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files":[
+
+        ]
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Carvalho",
+            "email": "digaolimac@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
+
