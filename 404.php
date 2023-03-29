@@ -4,8 +4,6 @@ require_once('vendor/autoload.php');
 
 include("resources/views/partials/head.php");
 
-
-
 use App\models\Book;
 
 use App\models\DVD;

@@ -1,5 +1,3 @@
-
-
 Options +FollowSymLinks +MultiViews
 RewriteEngine On
 RewriteBase /scandiweb-test-task/
