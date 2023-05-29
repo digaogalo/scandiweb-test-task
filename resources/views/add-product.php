@@ -11,8 +11,8 @@ include("partials/head.php");
         <div class="title">
             <h2>Product Add</h2>
             <div>
-                <button type="submit" class="btn btn-outline-primary btn-size">Save</button>
-                <button type="button" class="btn btn-outline-danger btn-size" onclick="window.location.href='index'">Cancel
+                <button type="submit" class="btn btn-success btn-size">Save</button>
+                <button type="button" class="btn btn-danger btn-size" onclick="window.location.href='index.php'">Cancel
                 </button>
             </div>
         </div>

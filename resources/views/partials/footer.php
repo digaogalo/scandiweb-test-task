@@ -2,7 +2,7 @@
 $partial = '
 <center>
 <span>Scandiweb Test Assignment</span><br>
-<a class="navbar-brand" href="https://github.com/digaogalo/jr-developer-test" target="_blank">
+<a class="navbar-brand" href="https://github.com/digaogalo/scandiweb-test-task" target="_blank">
 <small>&copy; <?php echo date("Y"); ?> Made By Rodrigo Carvalho</small>
 </a>
 </center>

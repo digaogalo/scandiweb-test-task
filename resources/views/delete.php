@@ -2,9 +2,9 @@
 
 require_once("../../vendor/autoload.php");
 
-/* use App\models\Book;
+use App\models\Book;
 use App\models\DVD;
-use App\models\Furniture; */
+use App\models\Furniture; 
 
 if (isset($_POST['but_delete'])) {
     if (isset($_POST['delete'])) {

@@ -22,8 +22,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 25%;
-    height: auto;
+    width: 18rem;
+    height: 12rem;
     padding: 1ch;
     margin: 1.5rem;
     position: relative;
@@ -163,7 +163,7 @@ h2{
     margin-bottom: 1rem;
     margin-right: 0.25rem;
     margin-left: 0.25rem;
-    position: relative;
+    position: reative;
     border: 0.15ch solid black;
     font-size: 3ch;
     -webkit-border-radius: 2%;

@@ -36,8 +36,6 @@ $results = "";
 
 						<a href="resources/views/edit-product?SKU=' . $row->getSlug("SKU") . '&type=' . $row->productType . '">
 
-                        <img alt="Edit listing" src="resources/images/edit_black_24dp.svg" class="edit-content">
-
                         </a>
 
 						<span>' . $row->SKU . '</span>
@@ -68,21 +66,26 @@ $results = "";
 
             <h2>Product List</h2>
 
-            <div>
+            <dilov>
 
-                <button   
+            <button   
 
                 type="button"   
 
-                class="btn btn-outline-primary btn-size"    
+                class="btn btn-success btn-size"    
 
-                onclick="window.location.href='resources/views/add-product'"
+                onclick="window.location.href='resources/views/add-product.php'"
+                href="add.php"
 
-                >
-
+                > 
                 ADD
+                <script>
+                    function redirectToPage() {
+                    window.location.href = "resources/views/add-product";
+                    }
+                    </script>
 
-                </button>
+            </button>
 
                 <button   
 
@@ -104,7 +107,7 @@ $results = "";
 
                 </button>
 
-            </div>
+            </dilov>
 
         </div>
 
