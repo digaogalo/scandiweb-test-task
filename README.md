@@ -42,5 +42,3 @@ Available at: https://scandiweb-assignment-test-task.000webhostapp.com/
 
 ![3da7100f-9486-41b6-997f-bf008b4fb4ff](https://user-images.githubusercontent.com/101463566/236457430-35f4925c-7733-462a-b178-de0b63cdd213.png)
 
-
-https://scandiweb-assignment-test-task.000webhostapp.com/
