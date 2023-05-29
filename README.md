@@ -1,27 +1,44 @@
+# Scandiweb Test Assignment
+<hr>
+Available at: https://scandiweb-assignment-test-task.000webhostapp.com/
+<hr>
 
-# Scandiweb Junior Developer Test
+## How to use:
 
-### Available at:
-<hr />
+***git clone*** : https://github.com/digaogalo/scandiweb-test-task.git
 
-### How to use : 
-On  the <i>.htaccess</i> file, replace your deployment directory on <i>RewriteBase
-For example: if you're deploying at <i>https://localhost/yourApp/</i>, <i>RewriteBase</i> must be <i>/yourApp/</i>
-Else if you're deploying simply at <i>https://localhost/</i>, <i>RewriteBase</i> must be <i>/</i>
-On  the <i>/app/models/Database.php</i> file, replace the <i>HOST</i>, <i>USER</i>, <i>PASSWORD</i> and <i>DBNAME</i> constants with your relevant SQL information.
-  
-<hr />
-  
-### Database:
-  
-| NAME | TYPE| ATTRIBUTES |
-| :---         |     :---:      |          ---: |
-| sku   | varchar(30)     |Primary    |
-| name    | varchar(65)       |       |
-|price   | decimal(10,0)     |     |
-| productType    | enum(Book, Furniture, DVD)       |      |
-| productAttribute   | varchar(12)     |     |
-  
-<hr />
-  
-&copy; Made By Rodrigo Carvalho
+## Install Database structure :
+
+| NAME  | TYPE                             | ATTRIBUTES       |
+|-----------------|:--------------------------------:|-----------------|
+| SKU             | varchar(30)                      | Primary Key (PK) |
+| Name            | varchar(65)                      | -               |
+| Price           | decimal(10,0)                    | -               |
+| productType     | enum('Book', 'Furniture', 'DVD') | -               |
+| productAttribute| varchar(12)                      | -               |
+<hr>
+
+## Technologies used in this project :
+
+- [x] PHP
+- [x] MySQL
+- [x] CSS
+- [x] Bootstrap
+- [x] jQuery
+- [x] Isotope
+<hr>
+
+## Preview: 
+
+![Captura de Tela (21)](https://user-images.githubusercontent.com/101463566/236457210-296609a2-a730-4a54-adc0-b5a2f973b480.png)
+
+![Captura de Tela (20)](https://user-images.githubusercontent.com/101463566/236457225-7501de63-64c7-48a1-be3b-b7e6cdf04d65.png)
+
+![Captura de Tela (19)](https://user-images.githubusercontent.com/101463566/236457239-37b51255-f552-4e4c-a56c-8a8de9f38d74.png)
+
+<hr>
+
+## QA test:
+
+![3da7100f-9486-41b6-997f-bf008b4fb4ff](https://user-images.githubusercontent.com/101463566/236457430-35f4925c-7733-462a-b178-de0b63cdd213.png)
+
