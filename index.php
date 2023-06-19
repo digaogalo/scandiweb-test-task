@@ -2,10 +2,12 @@
 require_once('vendor/autoload.php');
 include("resources/views/partials/head.php");
 include("App/controllers/ProductController.php");
+
 $controller = new ProductController();
 $results = $controller->getProductList();
 
 ?>
+
 
 <body>
     <div class="container">
