@@ -3,6 +3,9 @@ use App\models\Book;
 use App\models\DVD;
 use App\models\Furniture;
 
+$controller = new ProductController();
+$results = $controller->getProductList();
+
 class ProductController {
     public function getProductList() {
         $allDVD = DVD::getProducts();
