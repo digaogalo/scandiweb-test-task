@@ -27,5 +27,10 @@ class ProductController {
         
         return $results;
     }
+
+    public function renderProductList($results) {
+        include("resources/views/partials/head.php");
+        include("resources/views/template.php");
+    }
 }
 ?>
