@@ -1,6 +1,5 @@
-
-
-<body>
+<html>
+ <body>
     <div class="container">
         <form method="post" action="resources/views/delete">
             <div class="title">
@@ -26,4 +25,6 @@
             window.location.href = "resources/views/add-product";
         }
     </script>
-</body>
+ </body> 
+</html>
+
