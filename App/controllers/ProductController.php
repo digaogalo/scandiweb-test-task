@@ -1,10 +1,9 @@
 <?php
+namespace App\controllers;
+
 use App\models\Book;
 use App\models\DVD;
 use App\models\Furniture;
-
-$controller = new ProductController();
-$results = $controller->getProductList();
 
 class ProductController {
     public function getProductList() {
@@ -29,3 +28,4 @@ class ProductController {
         return $results;
     }
 }
+?>

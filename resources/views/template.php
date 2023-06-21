@@ -15,7 +15,7 @@
             </div>
             <hr>
             <div class="row isotope-grid main-grid">
-                <?= $results ?>
+            <?= isset($results) ? $results : '' ?>
             </div>
         </form>
     </div>
@@ -27,4 +27,3 @@
     </script>
  </body> 
 </html>
-
